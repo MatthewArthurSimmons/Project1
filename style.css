@@ -1,0 +1,73 @@
+/* Simple CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-container {
+    display: flex;
+    background-color: gray;
+    height: 10vh;
+    width: 95vw;
+    margin-top: 5vh;
+    border-radius: 25px;
+    border:  1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; /* or flex-start */
+    width: 95vw;
+}
+
+
+.book-card-container{
+    display: flex;
+}
+
+.book-card {
+    display: block; /* or flex/inline-block depending on your layout */
+    background-color: gray;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: black;
+    max-width: 300px; /* optional */
+    word-break: break-word; /* for long words or strings */
+    border: 1px, solid, black;
+}
+
+#add-book-button {
+
+    border-radius: 10px;
+    display: block; /* or flex/inline-block depending on your layout */
+    background-color: gray;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: 1px, solid, black;
+}
+
+#add-book-button:hover{
+    background-color: lightgray;
+}
+
+#add-book-button:active{
+    background-color: white;
+}
